@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VOROVO POS Privacy Policy</title>
+<meta name="description" content="How VOROVO POS handles the shop's data and the access it is given to Google Drive.">
+<style>
+  :root { --text: #1d1d1f; --muted: #5a5a60; --bg: #ffffff; --line: #e3e3e8; --link: #0b57d0; }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #ececf0; --muted: #a5a5ad; --bg: #16161a; --line: #2c2c33; --link: #8ab4f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, "Segoe UI", Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--link); overflow-wrap: anywhere; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>VOROVO POS Privacy Policy</h1>
+  <p class="lead">Last updated: 23 October 2026</p>
+
+  <p>
+    VOROVO POS is a point-of-sale program for Windows, made for the VOROVO shop. This page
+    explains what the program does with the shop's data and with the access it is given to
+    the shop owner's Google Drive.
+  </p>
+
+  <h2>The shop's data stays on the shop's computer</h2>
+  <ul>
+    <li>Products, sales, stock, shifts, staff and settings are kept in a database on the shop's own computer.</li>
+    <li>The database is encrypted with the shop's data key. The key is kept on that computer, locked to its Windows account, and on a sheet the owner keeps.</li>
+    <li>VOROVO POS does not send the shop's data to VOROVO or to anyone else. It has no advertising and no tracking, and no data is sold or shared.</li>
+  </ul>
+
+  <h2>Google Drive backups (optional)</h2>
+  <p>
+    The shop owner can connect a Google account in the program's Settings. VOROVO POS then
+    uploads backups of the shop's database to that account's Google Drive.
+  </p>
+  <ul>
+    <li><strong>What the program can see:</strong> it asks Google only for access to the files it creates itself (the "drive.file" permission). It cannot see, open or change any other file in the Drive.</li>
+    <li><strong>What it stores there:</strong> a folder called "VOROVO POS Backups" containing the backup files. Each backup is encrypted with the shop's data key, so it cannot be read without that key.</li>
+    <li><strong>What else it reads:</strong> the email address of the connected Google account, only to show the owner which account is connected. It is not stored or sent anywhere.</li>
+    <li><strong>How long backups are kept:</strong> backups older than 90 days are removed from the folder, but the newest 10 are always kept.</li>
+    <li><strong>The sign-in:</strong> the permission Google gives the program is kept on the shop's computer, locked to its Windows account. It is not sent to VOROVO or to anyone else.</li>
+  </ul>
+  <p>
+    The data received from Google is used only to make, check and remove these backups, and is
+    never transferred to anyone. VOROVO POS's use and transfer of information received from
+    Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.
+  </p>
+
+  <h2>How to remove the access</h2>
+  <ul>
+    <li>In VOROVO POS: Settings, Google Drive, <strong>Disconnect</strong>.</li>
+    <li>Or in the Google account: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, choose VOROVO POS, then remove its access.</li>
+    <li>Backups already in the Drive stay there until the owner deletes the "VOROVO POS Backups" folder.</li>
+  </ul>
+
+  <h2>Changes to this policy</h2>
+  <p>If what the program does with data changes, this page is updated and its date changed.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:swindshop@gmail.com">swindshop@gmail.com</a></p>
+
+  <footer>
+    <p><a href="index.html">VOROVO POS home page</a></p>
+  </footer>
+</main>
+</body>
+</html>
